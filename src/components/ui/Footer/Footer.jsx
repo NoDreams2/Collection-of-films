@@ -14,7 +14,7 @@ export default function Footer() {
           <p>Данный сайт создан исключительно в обучающих целях.</p>
           <p>Все права принадлежат правообладателям.</p>
         </div>
-        <span className={styles.footer__logo}>Filmora</span>
+        <span className={styles.footer__logo}>Сборник фильмов</span>
       </div>
     </Stack>
   );

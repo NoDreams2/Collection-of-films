@@ -129,7 +129,7 @@ export default function Navbar() {
               component={RouterLink}
               to="/"
             >
-              Filmora
+              Сборник фильмов
             </Typography>
           </Toolbar>
         </div>
