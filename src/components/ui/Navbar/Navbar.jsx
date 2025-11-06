@@ -16,7 +16,7 @@ import {
   Typography,
   useScrollTrigger,
 } from '@mui/material';
-import React, { useState } from 'react';
+import React, { useCallback, useState } from 'react';
 import { Link as RouterLink } from 'react-router-dom';
 
 import { iconComponents, MOVIE_LISTS, TOP_LISTS } from '../../../constans';
@@ -34,12 +34,12 @@ export default function Navbar() {
     target: window,
   });
 
-  const handleDrawerToggle = () => {
+  const handleDrawerToggle = useCallback(() => {
     setIsOpen(prevState => !prevState);
-  };
+  }, []);
 
   return (
-    <Slide appear={false} direction="right" in={!trigger}>
+    <Slide appear={false} direction="down" in={!trigger}>
       <AppBar className={styles.navbar}>
         <div className={styles.navbar__container}>
           <Toolbar>

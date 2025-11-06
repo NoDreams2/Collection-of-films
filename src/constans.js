@@ -30,13 +30,13 @@ export const iconComponents = {
 
 export const TOP_LISTS = [
   {
-    title: 'топ 100 популярных фильмов',
+    title: 'топ популярных фильмов',
     icon: 'AutoAwesome',
     url: '/popular',
     value: 'TOP_POPULAR_MOVIES',
   },
   {
-    title: 'топ 250 лучших фильмов',
+    title: 'топ лучших фильмов',
     icon: 'Stars',
     url: '/best',
     value: 'TOP_250_MOVIES',
